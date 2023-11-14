@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            background-color: pink;
+        }
+        .banner{
+            text-align: center;
+            background-color: #ffffff;
+            margin: 0 auto;
+        }
+        .banner img{
+            max-width: 100%;
+            height: auto;
+        }
+        .contact-form{
+            padding:40px 0;
+            margin: 0 10px;
+        }
+        .form-container{
+            max-width: 40%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+        .contact-form h2{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .form-group{
+            margin-bottom: 20px;
+        }
+        .form-container label{
+            display: block;
+            font-weight: bold;
+        }
+        .form-container input, textarea{
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-bottom: 1rem;
+            resize: vertical;
+        }
+        .submit-button{
+            padding: 10px 20px;
+            background-color: #0dac30;
+            border: none;
+            color: white;
+            border-radius: 4px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+        .contact-info{
+            text-align: center;
+            padding: 50px 0;
+            background-color: #f7f7f7;
+        }
+        .contact-info h2{
+            margin-bottom: 20px;
+        }
+        footer{
+            padding: 20px;
+            text-align: center;
+            background-color: #333;
+            color: white;
+        }
+        h1{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://www.niehs.nih.gov/health/topics/agents/water-poll/index.cfm">Explore</a><br><br>
+    
+    
+    <a href="index.html" target="_self">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="About.html" target="_blank">About</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="causes.html" target="_blank">Causes</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="Effects.html" target="_blank">Effects</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="controls.html" target="_blank">Controls</a>
+<section class="banner">
+    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230822131732/images.png" alt="Welcome to our Contact Us page">
+</section>
+    
+<h1>Get in Touch With Us</h1>
+<p>We are here to answer any questions you may have.</p>
+
+    <section class="contact-form">
+        <div class="form-container">
+        <H2>Your Details</H2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required><br>
+            <label for="phone">Phone no:</label>
+            <input type="tel" id="phone" name="phone" required><br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit" class="submit-button">Submit</button> 
+
+        </form>
+        </div>
+    </section>
+    
+
+        
+    <footer>
+        <p> &copy; Water Pollution 2023 .All rights reserved.</p>
+
+    </footer>
+
+    
+</body>
+</html>
